@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Card from './components/card/card';
-import Popular from './components/popular';
+import Popular from './components/Popular/popular';
+
 
 function App() {
   const [count, setCount] = useState(0)
